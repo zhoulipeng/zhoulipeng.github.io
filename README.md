@@ -8,6 +8,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+```mermaid
+graph TD;
+Master==>Worker1;
+Master==>Worker2;
+Worker1==>Waiter;
+Master==>Waiter;
+Worker2==>Waiter;
+```
 ```markdown
 Syntax highlighted code block
 
